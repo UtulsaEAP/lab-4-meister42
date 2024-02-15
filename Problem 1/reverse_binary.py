@@ -8,8 +8,15 @@ Lab Time:
 
 
 def reverse_binary():
+
+
     user_num = int(input())
-    # YOUR CODE HERE
+    binary = 0
+    while user_num != 0:
+        user_num  % 2
+    print(str(user_num))
+    print("test")
+
 
 if __name__ == "__main__":
     reverse_binary()
