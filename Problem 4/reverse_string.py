@@ -7,7 +7,7 @@ Lab Time:
 
 def reverse_string():
     # YOUR CODE HERE
-    
+    print()
 
 if __name__ == "__main__":
     reverse_string()

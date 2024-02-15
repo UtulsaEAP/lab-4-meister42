@@ -6,6 +6,7 @@ Lab Time:
 """
 
 def inc_5():
+    print()
     # Write your code here
     
 
