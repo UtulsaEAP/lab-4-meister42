@@ -7,6 +7,16 @@ Lab Time:
 
 def norm():
     # Write your code here
-    print()
+    floatnum = int(input())
+    numbers = []
+    for i in range(1, floatnum + 1):
+        num = float(input())
+        numbers.append(num)
+    maxvalue = float(max(numbers))
+    outputnumbers =  [i/maxvalue for i in numbers]
+    for i in range (1, floatnum + 1 ):
+        print(f'{outputnumbers[i-1]:.2f}')
+    
+# 5","30.0","50.0","10.0","100.0","65.0"
 if __name__ == "__main__":
     norm()
