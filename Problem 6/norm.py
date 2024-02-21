@@ -1,8 +1,8 @@
 """
 Complete the following python code to take in a list of values from the user and then normalize them
 
-Name:
-Lab Time:
+Name: Henry Holman
+Lab Time: Thursday 2pm
 """
 
 def norm():
